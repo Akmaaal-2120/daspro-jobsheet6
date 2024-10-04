@@ -49,7 +49,7 @@ public class self3 {
                     break;
             }
             
-
+            
         }else if (brand == 3){
             switch (category) {
                 case "kids":
