@@ -6,7 +6,7 @@ public class self2 {
 
         int maxdiscount, bookNum, category;
         maxdiscount = 0;
-
+        
         System.out.print("Enter your Book Category ((1)dictionary/(2)novel/(3)other) : ");
         category = input.nextInt();
         System.out.print("Enter your Book Number  : ");
