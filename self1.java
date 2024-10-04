@@ -11,7 +11,7 @@ public class self1 {
         num2 = input.nextInt();
         System.out.print("Enter num3 : ");
         num3 = input.nextInt();
-
+        
         if (num1 > num2){
             if(num1 > num3){
                 System.out.println("Max number is : " + num1);
