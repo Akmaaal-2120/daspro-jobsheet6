@@ -6,12 +6,12 @@ public class Selection2Exp3244107060048 {
         int income, netSalary;
         double tax = 0;
 
-        System.out.print("Input Categoty : ");
+        System.out.print("Input Category : ");
         category = input244107060048.nextLine();
         System.out.print("Input Income : ");
         income = input244107060048.nextInt();
 
-        if (category.equalsIgnoreCase("worker")){
+        if (category.equals("worker")){
             if(income <= 2000000){
                 tax = 0.1;
             }else if (income <= 3000000){
@@ -22,7 +22,7 @@ public class Selection2Exp3244107060048 {
             netSalary = (int) (income - (tax*income));
             System.out.println("Nett salary = " + netSalary);
 
-        }else if (category.equalsIgnoreCase("businessman")){
+        }else if (category.equals("businessman")){
             if(income <= 2500000){
                 tax = 0.15;
             }else if (income <= 3500000){
